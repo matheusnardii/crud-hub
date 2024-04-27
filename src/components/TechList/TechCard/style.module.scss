@@ -1,0 +1,131 @@
+@media (min-width: 426px) {
+    .techs__box{
+        height: 4.76388rem;
+        border-radius: 0.25rem;
+        background: var(--gray-400);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .techs__info{
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .techs__title{
+        color: var(--gray-0);
+
+        font-family: Inter;
+        font-size: 0.88813rem;
+        font-weight: var(--bold);
+        line-height: 1.39588rem;
+    }
+
+    .footer__div{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+
+    .techs__nivel{
+        color: var(--gray-100);
+        font-family: Inter;
+        font-size:var(--headline);
+        line-height: 1.39588rem; /* 183.333% */
+    }
+
+    .icons__div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .edit__icon{
+        width: 0.9375rem;
+        height: 0.9375rem;
+
+        fill: var(--gray-0);
+
+        cursor: pointer;
+    }
+
+    .delete__icon{
+        width: 1.1875rem;
+        height: 1.1875rem;
+
+        fill: var(--gray-0);
+
+        cursor: pointer;
+    }
+
+
+}
+
+
+@media (min-width: 300px) and (max-width: 426px){
+    .techs__box{
+        width: 89vw;
+        height: 4.76388rem;
+        border-radius: 0.25rem;
+        background: var(--gray-400);
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .techs__info{
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .techs__title{
+        color: var(--gray-0);
+
+        font-family: Inter;
+        font-size: 0.88813rem;
+        font-weight: var(--bold);
+        line-height: 1.39588rem;
+    }
+
+    .footer__div{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .techs__nivel{
+        color: var(--gray-100);
+        font-family: Inter;
+        font-size:var(--headline);
+        line-height: 1.39588rem; /* 183.333% */
+    }
+
+    .icons__div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .edit__icon{
+        width: 0.9375rem;
+        height: 0.9375rem;
+
+        fill: var(--gray-0);
+    }
+
+    .delete__icon{
+        width: 1.1875rem;
+        height: 1.1875rem;
+
+        fill: var(--gray-0);
+    }
+
+
+
+}

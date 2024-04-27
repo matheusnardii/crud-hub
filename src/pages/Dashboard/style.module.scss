@@ -1,0 +1,137 @@
+@media (min-width: 426px){
+    .dashboard__containner{
+        width: 100%;
+        height: 100vh;
+
+
+        background: var(--gray-400);
+    }
+
+    .info__containner{
+        display: flex;
+        height: 7.375rem;
+        justify-content: space-between;
+        align-items: center;
+        gap: 0.625rem;
+        padding: 0 21%;
+
+        border-top: 3px solid var(--gray-300);
+    }
+
+    .info__title{
+        color: var(--gray-0);
+
+        font-family: Inter;
+        font-size: var(--title-1);
+        font-weight: var(--bold);
+        line-height: 1.75rem
+    }
+
+    .info__paragraph{
+        color: var(--gray-100);
+
+        font-family: Inter;
+        font-size: var(--headline);
+        line-height: 1.375rem;
+    }
+
+    .text__box{
+        padding: 0.75rem;
+        gap: 1.5rem;
+        padding: 2.31% 21%;
+
+        border-top: 3px solid var(--gray-300);
+    }
+
+    .text__title{
+
+        color: var(--grey-0, #F8F9FA);
+        font-family: Inter;
+        font-size: var(--title-1);
+        font-weight: var(--bold);
+        line-height: 1.75rem; 
+    }
+
+    .text__paragraph{
+
+        color:var(--grey-0);
+        font-family: Inter;
+        font-size: var(--paragraph);
+        line-height: 1.52275rem;
+    }
+
+
+
+    
+}
+
+@media (min-width: 300px) and (max-width: 426px){
+    .dashboard__containner{
+        width: 100%;
+        height: 100vh;
+       
+        background: var(--gray-400);
+    }
+
+    .info__containner{
+        display: flex;
+        height: 8.1875rem;
+        padding: 0.75rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 0.625rem;
+
+        border-top: 3px solid var(--gray-300);
+    }
+
+    .info__title{
+        color: var(--gray-0);
+
+        font-family: Inter;
+        font-size: var(--title-1);
+        font-weight: var(--bold);
+        line-height: 1.75rem
+    }
+
+    .info__paragraph{
+        color: var(--gray-100);
+
+        font-family: Inter;
+        font-size: var(--headline);
+        font-weight: 400;
+        line-height: 1.375rem;
+    }
+
+    .text__box{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0.75rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 1.5rem;
+
+        border-top: 3px solid var(--gray-300);
+    }
+
+    .text__title{
+        width: 18.125rem;
+
+        color: var(--grey-0, #F8F9FA);
+        font-family: Inter;
+        font-size: var(--title-1);
+        font-weight: var(--bold);
+        line-height: 1.75rem; 
+    }
+
+    .text__paragraph{
+        width: 18.5625rem;
+
+        color: var(--grey-0);
+        font-family: Inter;
+        font-size: var(--paragraph);
+        font-weight: 400;
+        line-height: 1.52275rem;
+    }
+}

@@ -1,0 +1,41 @@
+@media (min-width: 426px) {
+    .login__containner{
+        width: 100%;
+        height: 100vh;
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2.23rem;
+
+        background-color: var(--gray-400);
+        
+    }
+
+    .login__img{
+        width: 9.00394rem;
+        height: 1.24838rem;
+    }
+}
+
+
+@media (min-width: 300px) and (max-width: 426px) {
+    .login__containner{
+        width: 100vw;
+        height: 100vh;
+        display: inline-flex;
+        // padding: 5.0625rem 0.75rem 3.18225rem 0.75rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.21206rem;
+
+        background-color: var(--gray-400);
+        
+    }
+
+    .login__img{
+        width: 6.3125rem;
+        height: 0.87519rem;
+    }
+}
